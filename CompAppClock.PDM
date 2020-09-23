@@ -1,0 +1,134 @@
+[Root]
+Most Recent Package=Timed Shutdown Clock Setup Template (Full)
+Most Recent Deploy=Folder Deployment 1
+
+[Deploy|Folder Deployment 1|Root]
+Package=Timed Shutdown Clock Setup Template (Full)
+Handler=PDWizard.FolderDplySubWiz
+Folder=D:\Tester
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VB\Samples\CompAppClock\Test
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Files Found]
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Files Released]
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Missing Dependency Information]
+D:\VB\Samples\CompAppClock\ProgressControl.ocx=
+C:\WINDOWS\SYSTEM\FM20.DLL=
+C:\WINDOWS\SYSTEM\ProgressControl.ocx=
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Files Added]
+d:\vb\samples\compappclock\readme.txt=
+d:\vb\samples\compappclock\tada.wav=
+d:\vb\samples\compappclock\test\setclock.ini=
+d:\vb\samples\compappclock\test\colsceme.ini=
+D:\VB\Samples\CompAppClock\IdleTime.dll=
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Files Removed]
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=Yes
+C:\WINDOWS\SYSTEM\FM20.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\VB\Samples\CompAppClock\ReadMe.txt=Yes
+D:\VB\Samples\CompAppClock\TADA.WAV=Yes
+D:\VB\Samples\CompAppClock\TmClock.exe=Yes
+D:\VB\Samples\CompAppClock\Test\SetClock.ini=Yes
+D:\VB\Samples\CompAppClock\Test\ColSceme.ini=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\VB\Samples\CompAppClock\ProgressControl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\VB\Samples\CompAppClock\IdleTime.dll=Yes
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Configure Registry Files]
+Applicable=No
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Configure Remote Servers]
+Applicable=No
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Install Locations]
+D:\VB\Samples\CompAppClock\CompAppClock.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\FM20.DLL=$(WinSysPath)
+D:\VB\Samples\CompAppClock\ProgressControl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\VB\Samples\CompAppClock\ReadMe.txt=$(AppPath)
+D:\VB\Samples\CompAppClock\TADA.WAV=$(AppPath)
+D:\VB\Samples\CompAppClock\TmClock.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+D:\VB\Samples\CompAppClock\Test\SetClock.ini=$(AppPath)
+D:\VB\Samples\CompAppClock\Test\ColSceme.ini=$(AppPath)
+C:\WINDOWS\SYSTEM\ProgressControl.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\VB\Samples\CompAppClock\IdleTime.dll=$(AppPath)
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Configure Shared Files]
+Applicable=Yes
+D:\VB\Samples\CompAppClock\CompAppClock.exe=No
+D:\VB\Samples\CompAppClock\ReadMe.txt=No
+D:\VB\Samples\CompAppClock\TADA.WAV=No
+D:\VB\Samples\CompAppClock\TmClock.exe=No
+D:\VB\Samples\CompAppClock\Test\SetClock.ini=No
+D:\VB\Samples\CompAppClock\Test\ColSceme.ini=No
+D:\VB\Samples\CompAppClock\IdleTime.dll=No
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Distribution]
+Type=single
+Size=1.44 MB
+Title=Timed Shutdown Clock
+
+[Package|Timed Shutdown Clock Setup Template (Full)|Package]
+PackageFolder=D:\VB\Samples\CompAppClock\Test
+ProjectFolder=D:\VB\Samples\CompAppClock
+ServerSideCab=
+File1=D:\VB\Samples\CompAppClock\Test\setup.exe
+File2=D:\VB\Samples\CompAppClock\Test\Setup.Lst
+File3=D:\VB\Samples\CompAppClock\Test\TmClock.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Timed Shutdown Clock Setup Template (Full)|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|Timed Shutdown Clock Setup Template (Full)|$(Programs)]
+Icon1=TmClock.exe
+Title1=Timed Shutdown Clock
+StartIn1=$(AppPath)
+Key1=Icon3
