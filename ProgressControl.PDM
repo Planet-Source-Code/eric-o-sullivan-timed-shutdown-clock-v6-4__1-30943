@@ -1,0 +1,69 @@
+[Root]
+Most Recent Package=Progress Bar (Dep File)
+
+
+[Package|Progress Bar (Dep File)|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\VB\Samples\CompAppClock
+Controls Design-Time Support=Yes
+
+[Package|Progress Bar (Dep File)|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Progress Bar (Dep File)|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Progress Bar (Dep File)|Files Found]
+
+[Package|Progress Bar (Dep File)|Files Released]
+
+[Package|Progress Bar (Dep File)|Missing Dependency Information]
+
+[Package|Progress Bar (Dep File)|Out-of-Date Dependency Information]
+
+[Package|Progress Bar (Dep File)|Files Added]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Progress Bar (Dep File)|Files Removed]
+
+[Package|Progress Bar (Dep File)|Files In Project]
+D:\VB\Samples\CompAppClock\ProgressControl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+
+[Package|Progress Bar (Dep File)|Configure Registry Files]
+Applicable=
+
+[Package|Progress Bar (Dep File)|Configure Remote Servers]
+Applicable=
+
+[Package|Progress Bar (Dep File)|Install Locations]
+D:\VB\Samples\CompAppClock\ProgressControl.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+
+[Package|Progress Bar (Dep File)|Configure Shared Files]
+Applicable=
+
+[Package|Progress Bar (Dep File)|DepFile]
+DepCabFile=ProgressControl.CAB
+DepCabRun=ProgressControl.INF
+
+[Package|Progress Bar (Dep File)|Package]
+PackageFolder=D:\VB\Samples\CompAppClock
+ProjectFolder=D:\VB\Samples\CompAppClock
+ServerSideCab=
+File1=D:\VB\Samples\CompAppClock\ProgressControl.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
